@@ -1,5 +1,4 @@
-
-  body {
+body {
 font-family: "Montserrat", sans-serif;
 margin: 0;
 background-color: black;
@@ -210,19 +209,16 @@ border-radius: 0.5rem;
 }
 .music-player{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.album{
-    width: 25%;
 
-}
+
+
 .player{
     width: 50%;
 }
-.controls{
-    width: 25%;
-}
+
 .player-controls{
     display: flex;
     justify-content:center;
@@ -266,14 +262,5 @@ border-radius: 0.5rem;
     margin-top:-6px ;
 
 }
-.arti img{
-    height:15%;
-    width: 15%;
-    margin-bottom :0px;
-    margin-left: 1rem;
 
-}
-.song-info{
-    margin-left: 3rem;
-}
-    
+
