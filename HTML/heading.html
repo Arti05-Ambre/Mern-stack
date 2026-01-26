@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-    <p>This is a paragraph. It starts on a new line and takes up the full width available.</p>
-    <ul>
-        <li>Mango</li>
-        <li>Apple</li>
-        <li>Banana</li>
-    </ul>
-    
-</body>
+    <title>Inserting Multiple Audio File</title>
+    <style>body{background-color: #e0708c;}
+        h1{text-align:center; font-weight:bold;}
+        #list1{font-weight:bold;font-size:24pxi ;}
+
+    </style>
+    </head>
+    <body>
+        <h1>Inserting Multiple Audio File Formats</h1>
+        <h2>The text between the audio tags will only be displayed in browsers that do not support the audio element.</h2>
+        <h3>List of Audio file formats</h3>
+        <ol id ="list1"></ol>
+        <li>mp 3- audio/mp3</li>
+        <li>wav-audio/wav</li>
+        <li>ogg-audio/ogg</li>
+    </ol>
+    <audio controls loop = "-1" autoplay>
+        <source src="sample_audio mp3" type="audio/mp3">
+        <source src="sample_audio wav" type="audio/wav">
+        <source src="sample_audio ogg" type="audio/ogg">
+        your browser does not support the the HTML5 Audio element</audio>
+    </body>
 </html>
