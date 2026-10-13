@@ -8,7 +8,7 @@ if(marks>=33){
     console.log("Grade A");
    
 } 
-}else{
+}else{ 
     console.log("Better luck next time!");
 
 }
