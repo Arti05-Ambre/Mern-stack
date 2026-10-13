@@ -12,3 +12,4 @@ if(marks>=33){
     console.log("Better luck next time!");
 
 }
+ 
